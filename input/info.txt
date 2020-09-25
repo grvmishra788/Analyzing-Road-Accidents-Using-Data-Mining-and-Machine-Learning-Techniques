@@ -1,0 +1,4 @@
+1. This is just a dummy file. 
+2. Download the zipped folder from the Google Drive Link mentioned in description of the repo. 
+3. Extract the zipped folder and cut-paste the three .csv files to the input folder
+3. Delete this file (info.txt)
