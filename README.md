@@ -9,3 +9,6 @@
 
 ### Objective
 - The goal of this work is to analyze the main factors that could be the possible causes of road accidents in UK as per the dataset provided.
+
+### Dataset
+- Download the dataset from this [Google Drive link](https://drive.google.com/file/d/1TSbV13ftvywhoH7H9GfzDqIsAL-jQDsE/view?usp=sharing), unzip and cut-paste the three csv files to input folder
