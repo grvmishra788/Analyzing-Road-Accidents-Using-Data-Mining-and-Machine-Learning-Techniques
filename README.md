@@ -12,3 +12,10 @@
 
 ### Dataset
 - Download the dataset from this [Google Drive link](https://drive.google.com/file/d/1TSbV13ftvywhoH7H9GfzDqIsAL-jQDsE/view?usp=sharing), unzip and cut-paste the three csv files to input folder
+
+### Proposed work
+- A selection of accident data is made, taking into account its relevance in our study, in order to work with a reasonable data source. The variable Number_Of_Casualties, chosen a priori, serves as output attribute.
+- To remove the curse of dimensionality, feature selection tools and techniques were applied in a unique way to find best 18 predictor variables for the output variable Number_Of_Casualties.
+- Various data mining models (like k-nn classifier, naive bayes classifier, decision tree etc) trained and tested on the dataset.
+- A ranking of the most important predictors for the output variable Number_Of_Casualties is established based on these models.
+- Association rules from decision trees for the predictor variables are obtained. These association rules allow the most relevant factors to be extracted to enable the output variable to be evaluated.
