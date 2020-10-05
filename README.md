@@ -19,3 +19,10 @@
 - Various data mining models (like k-nn classifier, naive bayes classifier, decision tree etc) trained and tested on the dataset.
 - A ranking of the most important predictors for the output variable Number_Of_Casualties is established based on these models.
 - Association rules from decision trees for the predictor variables are obtained. These association rules allow the most relevant factors to be extracted to enable the output variable to be evaluated.
+
+
+#### Step 1 : Selection & Pre-processing of accident data 
+- There are 3 CSVs in the dataset useds. Accidents is the primary one and has references by Accident_Index to the casualties and vehicles tables. 
+- After merging the three tables the given dataset had 961906 samples with around 67 variables in each sample.
+- To start with pre-processing, the attributes having a lot of null entries were removed.  Dataset now had only 62 variables.
+- Out of these 62, the variable Number_Of_Casualties measured the gravity of the accidents and hence it was chosen as the response or output variable.
