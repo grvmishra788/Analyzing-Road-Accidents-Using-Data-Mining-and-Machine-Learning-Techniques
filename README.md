@@ -26,3 +26,10 @@
 - After merging the three tables the given dataset had 961906 samples with around 67 variables in each sample.
 - To start with pre-processing, the attributes having a lot of null entries were removed.  Dataset now had only 62 variables.
 - Out of these 62, the variable Number_Of_Casualties measured the gravity of the accidents and hence it was chosen as the response or output variable.
+
+#### Step 2 : Applying feature selection techniques
+- 961906 samples with around 61 variables in each sample were left in the dataset, which was a lot to process.
+- Hence to remove the curse of dimensionality, feature selection tools and techniques were applied in a unique way to find best 18 predictor variables.<br/>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/grvmishra788/Analyzing-Road-Accidents-Using-Data-Mining-and-Machine-Learning-Techniques/blob/master/images/feature_selection.png">
+</p>
