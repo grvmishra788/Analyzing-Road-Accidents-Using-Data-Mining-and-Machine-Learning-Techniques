@@ -33,3 +33,12 @@
 <p align="center">
   <img width="460" height="300" src="https://github.com/grvmishra788/Analyzing-Road-Accidents-Using-Data-Mining-and-Machine-Learning-Techniques/blob/master/images/feature_selection.png">
 </p>
+
+#### Step 3 : Applying ML models
+- The dataset was then divided into training and test sets in the ratio 9:1.
+- After this a variety of classifiers which can handle a large number of samples were applied on the dataset and following results were obtained.
+- Decision Tree classifier seemed to produce the best results on the given dataset achieving an accuracy of 99.68% on training set and 93.71% on test set.
+<p align="center">
+  <img width="750" height="150" src="https://github.com/grvmishra788/Analyzing-Road-Accidents-Using-Data-Mining-and-Machine-Learning-Techniques/blob/master/images/table_accuracy.PNG">
+</p>
+ 
