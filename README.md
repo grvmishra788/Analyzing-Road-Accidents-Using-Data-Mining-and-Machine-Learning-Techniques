@@ -42,3 +42,8 @@
   <img width="750" height="150" src="https://github.com/grvmishra788/Analyzing-Road-Accidents-Using-Data-Mining-and-Machine-Learning-Techniques/blob/master/images/table_accuracy.PNG">
 </p>
  
+ #### Step 4: Ranking of the predictor variables 
+- Since Decision Tree classifier is the best performing classifier in this case, a ranking of the predictor variables was generated using it.
+<p align="center">
+  <img width="750" height="600" src="https://github.com/grvmishra788/Analyzing-Road-Accidents-Using-Data-Mining-and-Machine-Learning-Techniques/blob/master/images/features_ranking.png">
+</p>
