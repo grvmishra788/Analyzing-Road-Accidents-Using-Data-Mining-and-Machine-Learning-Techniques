@@ -47,3 +47,10 @@
 <p align="center">
   <img width="750" height="600" src="https://github.com/grvmishra788/Analyzing-Road-Accidents-Using-Data-Mining-and-Machine-Learning-Techniques/blob/master/images/features_ranking.png">
 </p>
+
+#### Step 5: Generating Decision Rules
+- Since Decision Tree classifier is the best performing classifier in this case, obtaining a set of decision rules from the classifier could help in getting relevant insights about what factors actually resulted in severe accidents. This can then help in generating accident prevention policies in future (outside the course of this project).
+- For instance, one of the three variable decision rule obtained was - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; if <b> (Casualty_Reference <= 1.5 && Casualty_Type <= 6.5 && Number_of_Vehicles <= 2.5 )</b> => <b>(Number_Of_Casualties <= 1)</b> with 94.78% confidence </b> 
+- In it's core essence, the above rule implies that if in an accident, Casuality_Reference was 1, the casuality involved two wheeleres i.e. Pedestrians, Cyclist or MotorCyclist and Number Of Vehicles involved were 2 or less then Total Number of Casualities that resulted from it were either 0 or 1. This claim was valid in 94.78% of the total accidents recorded.
+- With the above insight, policies can be made to make more accident cases fall in this category i.e. <i> (Casualty_Reference <= 1.5 && Casualty_Type <= 6.5 && Number_of_Vehicles <= 2.5 )</i> so that Number Of Casualities are minimized. However, actual extraction of such policies is beyond the scope of this project.
