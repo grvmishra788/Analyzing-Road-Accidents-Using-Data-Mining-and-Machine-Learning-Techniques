@@ -54,3 +54,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp; if <b> (Casualty_Reference <= 1.5 && Casualty_Type <= 6.5 && Number_of_Vehicles <= 2.5 )</b> => <b>(Number_Of_Casualties <= 1)</b> with 94.78% confidence </b> 
 - In it's core essence, the above rule implies that if in an accident, Casuality_Reference was 1, the casuality involved two wheeleres i.e. Pedestrians, Cyclist or MotorCyclist and Number Of Vehicles involved were 2 or less then Total Number of Casualities that resulted from it were either 0 or 1. This claim was valid in 94.78% of the total accidents recorded.
 - With the above insight, policies can be made to make more accident cases fall in this category i.e. <i> (Casualty_Reference <= 1.5 && Casualty_Type <= 6.5 && Number_of_Vehicles <= 2.5 )</i> so that Number Of Casualities are minimized. However, actual extraction of such policies is beyond the scope of this project.
+
+### Conclusion
+- With the objective to identify the main factors causing road accidents in UK and by using data mining techniques, nearly 900000 instances of road accidents recorded in the UK were analyzed. The study shows that the variables Casuality_Reference, Latitude, Longitude, Location_Northing_OSGR,  Location_Easting_OSGR, Road_Class , Number_Of_Vehicles and Speed_limit are in the genesis of most accidents. 
+- This work, in future, could help in the establishment of improvement polices in order to minimize the rate of road accidents in the UK, which can be developed based upon the Decision Rules obtained.
