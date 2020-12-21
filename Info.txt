@@ -1,0 +1,5 @@
+The name of the repo was changed from 
+"Analyzing-Road-Accidents-Using-Data-Mining-and-Machine-Learning-Techniques"
+to
+"Road_Accident_Analysis"
+on 21st December 2020.

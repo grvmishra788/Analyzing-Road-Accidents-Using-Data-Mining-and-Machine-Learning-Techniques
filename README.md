@@ -1,4 +1,4 @@
-## Analyzing-Road-Accidents-Using-Data-Mining-and-Machine-Learning-Techniques
+## Road Accident Analysis
 
 
 ### Motivation
